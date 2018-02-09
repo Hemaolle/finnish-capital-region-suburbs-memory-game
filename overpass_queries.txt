@@ -1,0 +1,11 @@
+// Löytää kasan erityisesti helsingin kaupunginosia
+
+[bbox:{{bbox}}];
+(relation[admin_level=10]);
+out geom;
+
+// Tällä löytyy hyvin kaupunginosien keskipisteet
+
+[bbox:{{bbox}}];
+(node[place=suburb]);
+out geom;
