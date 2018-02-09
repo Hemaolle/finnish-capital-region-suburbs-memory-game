@@ -9,13 +9,21 @@
       crossorigin=""></script>
     <script src="export.geojson" type="text/javascript"></script>
     <style>
-      #mapid { height: 180px; margin: auto}
+      #mapid { height: 180px; margin: 2em auto }
+      #answer { text-align: center }
+      #district { text-align: center }
+      #correct { text-align: center }
     </style>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
   </head>
   <body>
     <div id="mapid" style="width: 1000px; height: 600px;"></div>
-    <div id="district">District</div>
+    <div id="answer"></div>
+    <div id="district"></div>
+    <div id="correct"></div>
     <script type="text/javascript">
+      var correct = 0.0;
+      var asked = 0.0;
       var map = L.map('mapid').setView([60.192, 24.945], 11);
 
       L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw',
@@ -36,12 +44,28 @@
           fillOpacity: 0.8
       };
 
+      var target = "";
+
+      function newTarget() {
+        asked++;
+        target = districts.features[Math.floor(Math.random() * districts.features.length)];
+        document.getElementById("district").innerHTML= "Where is " + target.properties.name + "?";
+      }
+
       function whenClicked(e) {
         // e = event
         console.log(e);
-        document.getElementById("district").innerHTML=e.target.feature.properties.name; 
-        // You can make your ajax call declaration here
-        //$.ajax(... 
+        if (target.properties.name === e.target.feature.properties.name)
+        {
+          document.getElementById("answer").innerHTML="Correct!";
+          correct++;
+        }
+        else
+        {
+         document.getElementById("answer").innerHTML="False, you clicked on " + e.target.feature.properties.name; 
+        }
+        document.getElementById("correct").innerHTML="You've got " + Number((correct / asked) * 100).toFixed(0) + "% correct."; 
+        newTarget();
       }
 
       function onEachFeature(feature, layer) {
@@ -58,6 +82,7 @@
           onEachFeature: onEachFeature
       }).addTo(map);
 
+      newTarget();  
     </script>
   </body>
 </html>
