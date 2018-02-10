@@ -17,7 +17,7 @@
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
   </head>
   <body>
-    <div id="mapid" style="width: 1000px; height: 600px;"></div>
+    <div id="mapid" style="width: 1300px; height: 700px;"></div>
     <div id="answer"></div>
     <div id="district"></div>
     <div id="correct"></div>
@@ -25,6 +25,7 @@
       var correct = 0.0;
       var asked = 0.0;
       var map = L.map('mapid').setView([60.192, 24.945], 11);
+      var circle = {};
 
       L.tileLayer('http://c.tiles.wmflabs.org/osm-no-labels/{z}/{x}/{y}.png',
       {
@@ -55,6 +56,8 @@
       function whenClicked(e) {
         // e = event
         console.log(e);
+        map.removeLayer(circle);
+
         if (target.properties.name === e.target.feature.properties.name)
         {
           document.getElementById("answer").innerHTML="Correct!";
@@ -62,7 +65,13 @@
         }
         else
         {
-         document.getElementById("answer").innerHTML="False, you clicked on " + e.target.feature.properties.name; 
+          document.getElementById("answer").innerHTML="False, you clicked on " + e.target.feature.properties.name;
+          circle = L.circle([target.geometry.coordinates[1], target.geometry.coordinates[0]], {
+            color: 'red',
+            fillColor: '#f03',
+            fillOpacity: 1,
+            radius: 300
+          }).addTo(map);
         }
         document.getElementById("correct").innerHTML="You've got " + Number((correct / asked) * 100).toFixed(0) + "% correct."; 
         newTarget();
