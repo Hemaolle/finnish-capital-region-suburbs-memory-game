@@ -1,0 +1,2774 @@
+var espooGeojson = {
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2018-02-13T17:59:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/25024204",
+        "loc_name": "Otski",
+        "name": "Otaniemi",
+        "name:sv": "Otnäs",
+        "place": "suburb",
+        "wikidata": "Q2743766",
+        "wikipedia": "fi:Otaniemi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8318201,
+          60.1879383
+        ]
+      },
+      "id": "node/25024204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/25240202",
+        "loc_name": "Lepuski",
+        "name": "Leppävaara",
+        "name:fi": "Leppävaara",
+        "name:sv": "Alberga",
+        "place": "suburb",
+        "wikidata": "Q166942",
+        "wikipedia": "fi:Leppävaara"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8141415,
+          60.21967
+        ]
+      },
+      "id": "node/25240202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/25240203",
+        "loc_name": "Tapsku",
+        "name": "Tapiola",
+        "name:sv": "Hagalund",
+        "place": "suburb",
+        "wikidata": "Q1668730",
+        "wikipedia": "fi:Tapiola"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8031685,
+          60.17664
+        ]
+      },
+      "id": "node/25240203"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/25240204",
+        "loc_name": "Vestis",
+        "name": "Westend",
+        "name:sv": "Westend",
+        "place": "suburb",
+        "wikidata": "Q10937429",
+        "wikipedia": "fi:Westend"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7970833,
+          60.1618591
+        ]
+      },
+      "id": "node/25240204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/25240205",
+        "name": "Keilaniemi",
+        "name:sv": "Kägeludden",
+        "place": "suburb",
+        "wikidata": "Q6383723",
+        "wikipedia": "fi:Keilaniemi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8297831,
+          60.1715004
+        ]
+      },
+      "id": "node/25240205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/25240207",
+        "name": "Laajalahti",
+        "name:sv": "Bredvik",
+        "place": "suburb",
+        "wikidata": "Q652389",
+        "wikipedia": "fi:Laajalahti (Espoo)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7957652,
+          60.1997528
+        ]
+      },
+      "id": "node/25240207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/25240208",
+        "name": "Mäkkylä",
+        "name:sv": "Mäkkylä",
+        "place": "suburb",
+        "wikidata": "Q10593119",
+        "wikipedia": "fi:Mäkkylä"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8330685,
+          60.2233336
+        ]
+      },
+      "id": "node/25240208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/25240209",
+        "name": "Perkkaa",
+        "name:sv": "Bergans",
+        "place": "suburb",
+        "wikidata": "Q11887478",
+        "wikipedia": "fi:Perkkaa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8218348,
+          60.2145466
+        ]
+      },
+      "id": "node/25240209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/25240210",
+        "loc_name": "Fogeli",
+        "name": "Lintuvaara",
+        "name:sv": "Fågelberga",
+        "place": "suburb",
+        "wikidata": "Q6305087",
+        "wikipedia": "fi:Lintuvaara"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.807106,
+          60.237437
+        ]
+      },
+      "id": "node/25240210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26396884",
+        "loc_name": "Lasari",
+        "name": "Laaksolahti",
+        "name:fi": "Laaksolahti",
+        "name:sv": "Dalsvik",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7599211,
+          60.2429712
+        ]
+      },
+      "id": "node/26396884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26396885",
+        "loc_name": "Lähis",
+        "name": "Lähderanta",
+        "name:sv": "Källstrand",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.738987,
+          60.2414761
+        ]
+      },
+      "id": "node/26396885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/53844249",
+        "name": "Juvanmalmi",
+        "name:sv": "Juvamalmen",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7584546,
+          60.2780906
+        ]
+      },
+      "id": "node/53844249"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/54981328",
+        "loc_name": "Jäbä",
+        "name": "Järvenperä",
+        "name:sv": "Träskända",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7128475,
+          60.2438281
+        ]
+      },
+      "id": "node/54981328"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/60574895",
+        "name": "Olari",
+        "name:fi": "Olari",
+        "name:sv": "Olars",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.728761,
+          60.1703735
+        ]
+      },
+      "id": "node/60574895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/60575028",
+        "name": "Matinkylä",
+        "name:sv": "Mattby",
+        "place": "suburb",
+        "population": "19523"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7447135,
+          60.1541808
+        ]
+      },
+      "id": "node/60575028"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/175576717",
+        "name": "Kilo",
+        "name:sv": "Kilo",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7757811,
+          60.2158914
+        ]
+      },
+      "id": "node/175576717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/247779563",
+        "loc_name": "Jeda",
+        "name": "Haukilahti",
+        "name:sv": "Gäddvik",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7742655,
+          60.1594013
+        ]
+      },
+      "id": "node/247779563"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/248356709",
+        "name": "Saunalahti",
+        "name:fi": "Saunalahti",
+        "name:sv": "Bastvik",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6160213,
+          60.1652034
+        ]
+      },
+      "id": "node/248356709"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/248389759",
+        "loc_name": "Kökkeli",
+        "name": "Kauklahti",
+        "name:sv": "Köklax",
+        "place": "suburb",
+        "postal_code": "02780"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5961547,
+          60.191478
+        ]
+      },
+      "id": "node/248389759"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/248390209",
+        "name": "Latokaski",
+        "name:sv": "Ladusved",
+        "place": "suburb",
+        "postal_code": "02340"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6611992,
+          60.1773834
+        ]
+      },
+      "id": "node/248390209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/253733501",
+        "name": "Mikkelä",
+        "name:fi": "Mikkelä",
+        "name:sv": "Mickels",
+        "place": "suburb",
+        "wikidata": "Q11882684",
+        "wikipedia": "fi:Mikkelä"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6333343,
+          60.2054659
+        ]
+      },
+      "id": "node/253733501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/265963425",
+        "name": "Kivenlahti",
+        "name:sv": "Stensvik",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6321666,
+          60.1545617
+        ]
+      },
+      "id": "node/265963425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/265963734",
+        "name": "Laurinlahti",
+        "name:sv": "Larsvik",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6460712,
+          60.1454622
+        ]
+      },
+      "id": "node/265963734"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/265963954",
+        "name": "Soukka",
+        "name:sv": "Sökö",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6682155,
+          60.1384543
+        ]
+      },
+      "id": "node/265963954"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/265964534",
+        "name": "Suvisaaristo",
+        "name:sv": "Sommaröarna",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7145641,
+          60.1175286
+        ]
+      },
+      "id": "node/265964534"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/265964809",
+        "name": "Nöykkiö",
+        "name:sv": "Nöykis",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6679151,
+          60.1597511
+        ]
+      },
+      "id": "node/265964809"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/265965071",
+        "name": "Tuomarila",
+        "name:sv": "Domsby",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6898806,
+          60.2032457
+        ]
+      },
+      "id": "node/265965071"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/265965381",
+        "name": "Niipperi",
+        "name:sv": "Nipert",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.747566,
+          60.2840517
+        ]
+      },
+      "id": "node/265965381"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/265965572",
+        "loc_name": "Epekepe",
+        "name": "Espoon keskus",
+        "name:cs": "Espoo",
+        "name:en": "Espoo",
+        "name:sv": "Esbo centrum",
+        "place": "suburb",
+        "short_name": "Espoo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6559783,
+          60.2049494
+        ]
+      },
+      "id": "node/265965572"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/265965881",
+        "name": "Muurala",
+        "name:fi": "Muurala",
+        "name:sv": "Morby",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.636544,
+          60.2117283
+        ]
+      },
+      "id": "node/265965881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/275293411",
+        "name": "Kukkumäki",
+        "name:sv": "Kuckubacka",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6772976,
+          60.1780258
+        ]
+      },
+      "id": "node/275293411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/275297314",
+        "name": "Malminmäki",
+        "name:sv": "Malmbacka",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6831255,
+          60.1804245
+        ]
+      },
+      "id": "node/275297314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/276638800",
+        "name": "Viherkallio",
+        "name:fi": "Viherkallio",
+        "name:sv": "Grönbacka",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7446226,
+          60.2289721
+        ]
+      },
+      "id": "node/276638800"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/276638801",
+        "loc_name": "Viheri",
+        "name": "Viherlaakso",
+        "name:fi": "Viherlaakso",
+        "name:sv": "Gröndal",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7354239,
+          60.2289375
+        ]
+      },
+      "id": "node/276638801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/276639842",
+        "loc_name": "Kartsi",
+        "name": "Karakallio",
+        "name:fi": "Karakallio",
+        "name:sv": "Karabacka",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7645053,
+          60.2291544
+        ]
+      },
+      "id": "node/276639842"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/276639844",
+        "name": "Rastaala",
+        "name:fi": "Rastaala",
+        "name:sv": "Trastmossen",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7683542,
+          60.2377416
+        ]
+      },
+      "id": "node/276639844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/276639847",
+        "name": "Rastaspuisto",
+        "name:fi": "Rastaspuisto",
+        "name:sv": "Trastparken",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7803201,
+          60.2317419
+        ]
+      },
+      "id": "node/276639847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/294006220",
+        "name": "Jupperi",
+        "name:fi": "Jupperi",
+        "name:sv": "Jupper",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7659515,
+          60.2581789
+        ]
+      },
+      "id": "node/294006220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/301222287",
+        "name": "Karamalmi",
+        "name:sv": "Karamalmen",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.759377,
+          60.2246896
+        ]
+      },
+      "id": "node/301222287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/309923615",
+        "name": "Suna",
+        "name:fi": "Suna",
+        "name:sv": "Suna",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6780202,
+          60.1966975
+        ]
+      },
+      "id": "node/309923615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/309923806",
+        "name": "Suvela",
+        "name:sv": "Södrik",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6712918,
+          60.2028192
+        ]
+      },
+      "id": "node/309923806"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/357527820",
+        "name": "Pohjois-Tapiola",
+        "name:sv": "Norra Hagalund",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7937183,
+          60.1859629
+        ]
+      },
+      "id": "node/357527820"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/392032052",
+        "name": "Mankkaa",
+        "name:fi": "Mankkaa",
+        "name:sv": "Mankans",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7706761,
+          60.1945085
+        ]
+      },
+      "id": "node/392032052"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/442609640",
+        "name": "Vanttila",
+        "name:sv": "Fantsby",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6210421,
+          60.1864821
+        ]
+      },
+      "id": "node/442609640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/445775699",
+        "loc_name": "Iikkari",
+        "name": "Iivisniemi",
+        "name:sv": "Ivisnäs",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.69375,
+          60.1475923
+        ]
+      },
+      "id": "node/445775699"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/445778253",
+        "loc_name": "Niittari",
+        "name": "Niittykumpu",
+        "name:fi": "Niittykumpu",
+        "name:sv": "Ängskulla",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7662039,
+          60.1713147
+        ]
+      },
+      "id": "node/445778253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/445783001",
+        "name": "Taavinkylä",
+        "name:sv": "Dåvitsby",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7530396,
+          60.197376
+        ]
+      },
+      "id": "node/445783001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/445783002",
+        "name": "Sepänkylä",
+        "name:sv": "Smedsby",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7329092,
+          60.2048228
+        ]
+      },
+      "id": "node/445783002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/445791869",
+        "loc_name": "Lippis",
+        "name": "Lippajärvi",
+        "name:fi": "Lippajärvi",
+        "name:sv": "Klappträsk",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7109132,
+          60.2280119
+        ]
+      },
+      "id": "node/445791869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/445799475",
+        "name": "Henttaa",
+        "name:fi": "Henttaa",
+        "name:sv": "Hemtans",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7275966,
+          60.1891304
+        ]
+      },
+      "id": "node/445799475"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/445799869",
+        "name": "Kuurinniitty",
+        "name:sv": "Kurängen",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.712292,
+          60.1967507
+        ]
+      },
+      "id": "node/445799869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/445802786",
+        "name": "Olarinluoma",
+        "name:fi": "Olarinluoma",
+        "name:sv": "Olarsbäcken",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7597004,
+          60.1747619
+        ]
+      },
+      "id": "node/445802786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/445809920",
+        "name": "Kalajärvi",
+        "name:sv": "Kalajärvi",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.740413,
+          60.3046983
+        ]
+      },
+      "id": "node/445809920"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/463547280",
+        "name": "Friisilä",
+        "name:sv": "Frisans",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7182906,
+          60.1648195
+        ]
+      },
+      "id": "node/463547280"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/506519254",
+        "name": "Röylä",
+        "name:fi": "Röylä",
+        "name:sv": "Rödskog",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6968163,
+          60.2966485
+        ]
+      },
+      "id": "node/506519254"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/506519894",
+        "name": "Pakankylä",
+        "name:fi": "Pakankylä",
+        "name:sv": "Backby",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6772469,
+          60.2843976
+        ]
+      },
+      "id": "node/506519894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/615138213",
+        "name": "Ymmersta",
+        "name:fi": "Ymmersta",
+        "name:sv": "Ymmersta",
+        "place": "suburb",
+        "wikidata": "Q11902937",
+        "wikipedia": "fi:Ymmersta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7112642,
+          60.2056897
+        ]
+      },
+      "id": "node/615138213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/881060371",
+        "name": "Ämmässuo",
+        "name:fi": "Ämmässuo",
+        "name:sv": "Käringmossen",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5361481,
+          60.2364663
+        ]
+      },
+      "id": "node/881060371"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1085321303",
+        "name": "Velskola",
+        "name:fi": "Velskola",
+        "name:sv": "Vällskog",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6218822,
+          60.3115939
+        ]
+      },
+      "id": "node/1085321303"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1266499192",
+        "name": "Gumböle",
+        "name:fi": "Gumböle",
+        "name:sv": "Gumböle",
+        "old_name:fi": "Kumpyöli",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6151126,
+          60.2203051
+        ]
+      },
+      "id": "node/1266499192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1266499196",
+        "alt_name:fi": "Puotinen",
+        "name": "Bodom",
+        "name:fi": "Bodom",
+        "name:sv": "Bodom",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6953878,
+          60.2676442
+        ]
+      },
+      "id": "node/1266499196"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1396118276",
+        "name": "Vanhakartano",
+        "name:fi": "Vanhakartano",
+        "name:sv": "Gammelgård",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7439363,
+          60.2595204
+        ]
+      },
+      "id": "node/1396118276"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1573207104",
+        "is_in": "Bodom,Espoo",
+        "name": "Koskelo",
+        "name:fi": "Koskelo",
+        "name:sv": "Skrakaby",
+        "place": "suburb",
+        "source": "MML"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7221783,
+          60.2618939
+        ]
+      },
+      "id": "node/1573207104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1644054743",
+        "name": "Kunnarla",
+        "name:fi": "Kunnarla",
+        "name:sv": "Gunnars",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6582425,
+          60.2738213
+        ]
+      },
+      "id": "node/1644054743"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1644123289",
+        "name": "Karhusuo",
+        "name:fi": "Karhusuo",
+        "name:sv": "Björnkärr",
+        "place": "suburb",
+        "ref": "72"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6226813,
+          60.2279547
+        ]
+      },
+      "id": "node/1644123289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1647222299",
+        "name": "Uusmäki",
+        "name:fi": "Uusmäki",
+        "name:sv": "Nybacka",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8285809,
+          60.240352
+        ]
+      },
+      "id": "node/1647222299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1738244719",
+        "name": "Lakisto",
+        "name:fi": "Lakisto",
+        "name:sv": "Lakisto",
+        "place": "suburb",
+        "population": "264",
+        "ref": "89",
+        "wikidata": "Q867532",
+        "wikipedia": "fi:Lakisto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6541673,
+          60.346265
+        ]
+      },
+      "id": "node/1738244719"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1738249403",
+        "name": "Odilampi",
+        "name:fi": "Odilampi",
+        "name:sv": "Odilampi",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7633818,
+          60.302031
+        ]
+      },
+      "id": "node/1738249403"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1870464186",
+        "addr:country": "FI",
+        "addr:town": "Espoo",
+        "name": "Suurpelto",
+        "name:fi": "Suurpelto",
+        "name:sv": "Storåker",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7414776,
+          60.1871138
+        ]
+      },
+      "id": "node/1870464186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1874724622",
+        "name": "Finnoo",
+        "name:fi": "Finnoo",
+        "name:sv": "Finno",
+        "other_name": "Finnoo",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7120948,
+          60.1585921
+        ]
+      },
+      "id": "node/1874724622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1874731257",
+        "name": "Eestinmalmi",
+        "name:fi": "Eestinmalmi",
+        "name:sv": "Estmalmen",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.695228,
+          60.1645925
+        ]
+      },
+      "id": "node/1874731257"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1874743571",
+        "name": "Eestinlaakso",
+        "name:fi": "Eestinlaakso",
+        "name:sv": "Estdalen",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6766368,
+          60.1688171
+        ]
+      },
+      "id": "node/1874743571"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1961133278",
+        "loc_name": "Bemski",
+        "name": "Bemböle",
+        "name:fi": "Bemböle",
+        "name:sv": "Bemböle",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6674294,
+          60.221273
+        ]
+      },
+      "id": "node/1961133278"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2192153353",
+        "name": "Klovi",
+        "name:sv": "Klovis",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7514904,
+          60.2010501
+        ]
+      },
+      "id": "node/2192153353"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2192156773",
+        "name": "Kokinkylä",
+        "name:fi": "Kokinkylä",
+        "name:sv": "Kockby",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7467268,
+          60.1830893
+        ]
+      },
+      "id": "node/2192156773"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2192156774",
+        "name": "Tontunmäki",
+        "name:fi": "Tontunmäki",
+        "name:sv": "Tomtekulla",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.770018,
+          60.1766753
+        ]
+      },
+      "id": "node/2192156774"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2273414614",
+        "name": "Lahnus",
+        "name:fi": "Lahnus",
+        "name:sv": "Lahnus",
+        "place": "suburb",
+        "population": "940",
+        "ref": "87",
+        "source": "MML"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.714193,
+          60.3246547
+        ]
+      },
+      "id": "node/2273414614"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2273414615",
+        "alt_name": "Luukkaa",
+        "name": "Luukki",
+        "name:fi": "Luukki",
+        "name:sv": "Luk",
+        "place": "suburb",
+        "population": "111",
+        "ref": "86",
+        "source": "MML"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6971835,
+          60.3159174
+        ]
+      },
+      "id": "node/2273414615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2275517476",
+        "name": "Pohjois-Leppävaara",
+        "name:sv": "Norra-Alberga",
+        "place": "suburb",
+        "source": "Espoon karttapalvelu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8110381,
+          60.2221974
+        ]
+      },
+      "id": "node/2275517476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2275517479",
+        "name": "Etelä-Leppävaara",
+        "name:sv": "Södra Alberga",
+        "place": "suburb",
+        "source": "Espoon karttapalvelu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.804882,
+          60.2134941
+        ]
+      },
+      "id": "node/2275517479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2275522067",
+        "name": "Vallikallio",
+        "name:fi": "Vallikallio",
+        "name:sv": "Vallberget",
+        "place": "suburb",
+        "source": "Espoon karttapalvelu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8163552,
+          60.2261278
+        ]
+      },
+      "id": "node/2275522067"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2332943482",
+        "name": "Miilukorpi",
+        "name:fi": "Miilukorpi",
+        "name:sv": "Milkärr",
+        "place": "suburb",
+        "source": "MML"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6504332,
+          60.2248787
+        ]
+      },
+      "id": "node/2332943482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2332943496",
+        "name": "Oittaa",
+        "name:fi": "Oittaa",
+        "name:sv": "Oitans",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6561232,
+          60.238825
+        ]
+      },
+      "id": "node/2332943496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2355288132",
+        "is_in": "Nuuksio",
+        "name": "Solvalla",
+        "name:fi": "Solvalla",
+        "name:sv": "Solvalla",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5580965,
+          60.2939279
+        ]
+      },
+      "id": "node/2355288132"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2659550093",
+        "name": "Vermo",
+        "name:fi": "Vermo",
+        "name:sv": "Vermo",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8362862,
+          60.215241
+        ]
+      },
+      "id": "node/2659550093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3636462036",
+        "name": "Kattilalaakso",
+        "name:fi": "Kattilalaakso",
+        "name:sv": "Kitteldalen",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6515523,
+          60.1647295
+        ]
+      },
+      "id": "node/3636462036"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3733106400",
+        "is_in": "Espoonkartano",
+        "name": "Mynttilä",
+        "name:fi": "Mynttilä",
+        "name:sv": "Myntböle",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5938739,
+          60.2041722
+        ]
+      },
+      "id": "node/3733106400"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3733143208",
+        "admin_ref": "75",
+        "name": "Kolmperä",
+        "name:fi": "Kolmperä",
+        "name:sv": "Kolmpers",
+        "place": "suburb",
+        "source": "Espoo map"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5320092,
+          60.2491029
+        ]
+      },
+      "id": "node/3733143208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3733165403",
+        "name": "Espoonkartano",
+        "name:fi": "Espoonkartano",
+        "name:sv": "Esbogård",
+        "place": "suburb",
+        "population": "590",
+        "wikidata": "Q335128",
+        "wikipedia": "fi:Espoonkartano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5792183,
+          60.198382
+        ]
+      },
+      "id": "node/3733165403"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3733177899",
+        "is_in": "Espoonkartano",
+        "name": "Mankki",
+        "name:fi": "Mankki",
+        "name:sv": "Mankby",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5653824,
+          60.1879796
+        ]
+      },
+      "id": "node/3733177899"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3733181901",
+        "addr:city": "Espoo",
+        "admin_ref": "76",
+        "name": "Siikajärvi",
+        "name:fi": "Siikajärvi",
+        "name:sv": "Siikajärvi",
+        "place": "suburb",
+        "population": "943",
+        "wikidata": "Q10667722",
+        "wikipedia": "fi:Siikajärvi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5142687,
+          60.2768182
+        ]
+      },
+      "id": "node/3733181901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3733192845",
+        "addr:city": "Espoo",
+        "admin_ref": "90",
+        "name": "Vanha-Nuuksio",
+        "name:sv": "Gamla Noux",
+        "place": "suburb",
+        "wikidata": "Q10502418",
+        "wikipedia": "fi:Vanha-Nuuksio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5882935,
+          60.2524373
+        ]
+      },
+      "id": "node/3733192845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3733195671",
+        "admin_ref": "78",
+        "name": "Nuuksio",
+        "name:fi": "Nuuksio",
+        "name:sv": "Noux",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5626272,
+          60.2966743
+        ]
+      },
+      "id": "node/3733195671"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3733198775",
+        "name": "Nupuri",
+        "name:fi": "Nupuri",
+        "name:sv": "Nupurböle",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6028456,
+          60.234996
+        ]
+      },
+      "id": "node/3733198775"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3820795650",
+        "is_in": "Laaksolahti,Espoo",
+        "name": "Veini",
+        "name:fi": "Veini",
+        "name:sv": "Sveins",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7685458,
+          60.2450581
+        ]
+      },
+      "id": "node/3820795650"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3882472606",
+        "name": "Tillinmäki",
+        "name:fi": "Tillinmäki",
+        "name:sv": "Tillisbacken",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6328263,
+          60.1703674
+        ]
+      },
+      "id": "node/3882472606"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3902108931",
+        "name": "Kurttila",
+        "name:fi": "Kurttila",
+        "name:sv": "Kurtby",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6030221,
+          60.1784777
+        ]
+      },
+      "id": "node/3902108931"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4062051342",
+        "name": "Perusmäki",
+        "name:fi": "Perusmäki",
+        "name:sv": "Grundbacka",
+        "place": "suburb",
+        "ref": "82"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7247496,
+          60.2876509
+        ]
+      },
+      "id": "node/4062051342"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4065427589",
+        "name": "Hirvisuo",
+        "name:fi": "Hirvisuo",
+        "name:sv": "Älgkärr",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6321226,
+          60.2197182
+        ]
+      },
+      "id": "node/4065427589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4097537985",
+        "name": "Nuottalahti",
+        "name:sv": "Notviken",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7311054,
+          60.151296
+        ]
+      },
+      "id": "node/4097537985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4097537986",
+        "name": "Tiistilä",
+        "name:sv": "Distby",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7333905,
+          60.1549148
+        ]
+      },
+      "id": "node/4097537986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4258305891",
+        "name": "Espoonlahti",
+        "name:fi": "Espoonlahti",
+        "name:sv": "Esboviken",
+        "place": "suburb",
+        "ref": "34"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6558968,
+          60.1497881
+        ]
+      },
+      "id": "node/4258305891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4258310823",
+        "name": "Kaitaa",
+        "name:fi": "Kaitaa",
+        "name:sv": "Kaitans",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6829451,
+          60.1478764
+        ]
+      },
+      "id": "node/4258310823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939745061",
+        "name": "Koukkuniemi",
+        "name:sv": "Krokudden",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7614553,
+          60.1539307
+        ]
+      },
+      "id": "node/4939745061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939745062",
+        "name": "Nuottaniemi",
+        "name:sv": "Notudden",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7428953,
+          60.1467051
+        ]
+      },
+      "id": "node/4939745062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939745063",
+        "name": "Piispansilta",
+        "name:sv": "Biskopsbro",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7419651,
+          60.162411
+        ]
+      },
+      "id": "node/4939745063"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939745064",
+        "name": "Yli-Finnoo",
+        "name:sv": "Övre Finno",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7059038,
+          60.1638769
+        ]
+      },
+      "id": "node/4939745064"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939745065",
+        "name": "Hannus",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7007668,
+          60.1554744
+        ]
+      },
+      "id": "node/4939745065"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939745066",
+        "name": "Hyljelahti",
+        "name:sv": "Sälviken",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7040382,
+          60.1449964
+        ]
+      },
+      "id": "node/4939745066"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939745067",
+        "name": "Kaitamäki",
+        "name:sv": "Kaitbacken",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6898741,
+          60.1429887
+        ]
+      },
+      "id": "node/4939745067"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939745068",
+        "name": "Riilahti",
+        "name:sv": "Rilax",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6791087,
+          60.1404546
+        ]
+      },
+      "id": "node/4939745068"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939745069",
+        "name": "Suinonsalmi",
+        "name:sv": "Svinösund",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6905856,
+          60.1317228
+        ]
+      },
+      "id": "node/4939745069"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939745070",
+        "name": "Soukanniemi",
+        "name:sv": "Sökö udd",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6743362,
+          60.1209308
+        ]
+      },
+      "id": "node/4939745070"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939745071",
+        "name": "Soukansalmi",
+        "name:sv": "Sökö sund",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6709244,
+          60.1300343
+        ]
+      },
+      "id": "node/4939745071"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939745072",
+        "name": "Soukanranta",
+        "name:sv": "Sökö strand",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6555123,
+          60.1361268
+        ]
+      },
+      "id": "node/4939745072"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939745073",
+        "is_in:city": "Espoo",
+        "is_in:country": "Finland",
+        "name": "Hannusjärvi",
+        "name:fi": "Hannusjärvi",
+        "name:sv": "Hannusträsk",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6713114,
+          60.1491329
+        ]
+      },
+      "id": "node/4939745073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939745074",
+        "name": "Sammalvuori",
+        "name:sv": "Mossberget",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6535781,
+          60.1579845
+        ]
+      },
+      "id": "node/4939745074"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939745075",
+        "name": "Nöykkiönlaakso",
+        "name:sv": "Nöykisdalen",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6685162,
+          60.1648345
+        ]
+      },
+      "id": "node/4939745075"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939745076",
+        "name": "Kuitinmäki",
+        "name:sv": "Kvisbacka",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7272604,
+          60.1719574
+        ]
+      },
+      "id": "node/4939745076"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939745077",
+        "name": "Lystimäki",
+        "name:sv": "Lustikulla",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7486828,
+          60.1760549
+        ]
+      },
+      "id": "node/4939745077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939745078",
+        "name": "Maari",
+        "name:sv": "Maren",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8154835,
+          60.1858603
+        ]
+      },
+      "id": "node/4939745078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939841738",
+        "name": "Etelä-Laajalahti",
+        "name:sv": "Södra Bredvik",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7988251,
+          60.1914312
+        ]
+      },
+      "id": "node/4939841738"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939841739",
+        "name": "Vanha Mankkaa",
+        "name:sv": "Gamla Mankans",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7715088,
+          60.1918426
+        ]
+      },
+      "id": "node/4939841739"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939841740",
+        "name": "Kokinmetsä",
+        "name:sv": "Kockbyskogen",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7211523,
+          60.1820443
+        ]
+      },
+      "id": "node/4939841740"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939841741",
+        "name": "Henttaanmetsä",
+        "name:sv": "Hemtskogen",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7095207,
+          60.1871966
+        ]
+      },
+      "id": "node/4939841741"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939841742",
+        "name": "Malminmetsä",
+        "name:sv": "Malmskogen",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6862447,
+          60.1848495
+        ]
+      },
+      "id": "node/4939841742"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939841743",
+        "name": "Puolarmetsä",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6931181,
+          60.1767647
+        ]
+      },
+      "id": "node/4939841743"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939841744",
+        "name": "Åminne",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5932372,
+          60.182498
+        ]
+      },
+      "id": "node/4939841744"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939841745",
+        "name": "Lasilaakso",
+        "name:sv": "Glasdalen",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5779314,
+          60.1784181
+        ]
+      },
+      "id": "node/4939841745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939841746",
+        "name": "Vantinmäki",
+        "name:sv": "Fantsbacken",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6187581,
+          60.1882503
+        ]
+      },
+      "id": "node/4939841746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939841747",
+        "name": "Harmaakallio",
+        "name:sv": "Gråberget",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6347645,
+          60.1756316
+        ]
+      },
+      "id": "node/4939841747"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939841748",
+        "name": "Vantinkorpi",
+        "name:sv": "Fantsskogen",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6379498,
+          60.1936949
+        ]
+      },
+      "id": "node/4939841748"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939841749",
+        "name": "Kiltakallio",
+        "name:sv": "Gillesberget",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6596333,
+          60.2011333
+        ]
+      },
+      "id": "node/4939841749"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939841750",
+        "name": "Saarniraivio",
+        "name:sv": "Äskrödjan",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6667573,
+          60.1979661
+        ]
+      },
+      "id": "node/4939841750"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939841751",
+        "name": "Kirkkojärvi",
+        "name:sv": "Kyrkträsk",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6673153,
+          60.211513
+        ]
+      },
+      "id": "node/4939841751"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939841752",
+        "name": "Kuurinmetsä",
+        "name:sv": "Kurskogen",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6971487,
+          60.1944735
+        ]
+      },
+      "id": "node/4939841752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939841753",
+        "name": "Smedsinmetsä",
+        "name:sv": "Smedsskogen",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7299448,
+          60.1989948
+        ]
+      },
+      "id": "node/4939841753"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939841754",
+        "name": "Lillhemt",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7307762,
+          60.1872119
+        ]
+      },
+      "id": "node/4939841754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939841755",
+        "name": "Sinimäki",
+        "name:sv": "Blåbacka",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.768724,
+          60.2047706
+        ]
+      },
+      "id": "node/4939841755"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939841756",
+        "name": "Nuijala",
+        "name:sv": "Klobbskog",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7776674,
+          60.2098808
+        ]
+      },
+      "id": "node/4939841756"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939841757",
+        "name": "Kuninkainen",
+        "name:sv": "Konungsböle",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7685134,
+          60.2239372
+        ]
+      },
+      "id": "node/4939841757"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939841758",
+        "name": "Friisinmäki",
+        "name:sv": "Frisbacka",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7910219,
+          60.214164
+        ]
+      },
+      "id": "node/4939841758"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939841759",
+        "name": "Lansa",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.773111,
+          60.2129739
+        ]
+      },
+      "id": "node/4939841759"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939841760",
+        "name": "Ruukinranta",
+        "name:sv": "Bruksstranden",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8220168,
+          60.2063457
+        ]
+      },
+      "id": "node/4939841760"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939841761",
+        "name": "Leppäsilta",
+        "name:sv": "Albro",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7840066,
+          60.2287882
+        ]
+      },
+      "id": "node/4939841761"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939841762",
+        "name": "Jorvi",
+        "name:sv": "Jorv",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6866309,
+          60.2222332
+        ]
+      },
+      "id": "node/4939841762"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939841763",
+        "name": "Karvasmäki",
+        "name:sv": "Karvasbacka",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6710977,
+          60.217378
+        ]
+      },
+      "id": "node/4939841763"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939841764",
+        "name": "Lommila",
+        "name:sv": "Gloms",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6523578,
+          60.2195519
+        ]
+      },
+      "id": "node/4939841764"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939841765",
+        "name": "Forsbacka",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5828265,
+          60.2190417
+        ]
+      },
+      "id": "node/4939841765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939841766",
+        "name": "Kolmiranta",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5139287,
+          60.2573027
+        ]
+      },
+      "id": "node/4939841766"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939841767",
+        "name": "Nuuksionpää",
+        "name:sv": "Nouxändan",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5346536,
+          60.3076402
+        ]
+      },
+      "id": "node/4939841767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939841769",
+        "name": "Takkula",
+        "name:sv": "Tackskog",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6217677,
+          60.3263898
+        ]
+      },
+      "id": "node/4939841769"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939841770",
+        "name": "Viiskorpi",
+        "name:sv": "Viskärr",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7237645,
+          60.2688818
+        ]
+      },
+      "id": "node/4939841770"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5409629656",
+        "name": "Solvik",
+        "name:fi": "Solvik",
+        "name:sv": "Solvik",
+        "place": "suburb",
+        "source": "Maanmittauslaitos Peruskarttarasteri 2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5856428,
+          60.2771215
+        ]
+      },
+      "id": "node/5409629656"
+    }
+  ]
+}

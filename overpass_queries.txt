@@ -9,3 +9,10 @@ out geom;
 [bbox:{{bbox}}];
 (node[place=suburb]);
 out geom;
+
+// Kaupunginosat vain tietystä kaupungista
+
+[bbox:{{bbox}}];
+area[name="Espoo"];
+(node(area)[place=suburb]);
+out geom;

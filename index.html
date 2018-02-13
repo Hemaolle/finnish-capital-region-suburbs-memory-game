@@ -7,7 +7,10 @@
     <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"
       integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw=="
       crossorigin=""></script>
-    <script src="export.geojson" type="text/javascript"></script>
+    <script src="espoo_suburbs.geojson" type="text/javascript"></script>
+    <script src="helsinki_suburbs.geojson" type="text/javascript"></script>
+    <script src="vantaa_suburbs.geojson" type="text/javascript"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <style>
       #mapid { height: 180px; margin: 2em auto }
       #answer { text-align: center }
@@ -21,11 +24,24 @@
     <div id="answer"></div>
     <div id="district"></div>
     <div id="correct"></div>
+    <div id="plot"><!-- Plotly chart will be drawn inside this DIV --></div>
+    <select id="city_selection" onchange="changeCity()">
+      <option value="helsinki">Helsinki</option>
+      <option value="espoo">Espoo</option>
+      <option value="vantaa">Vantaa</option>
+    </select>
     <script type="text/javascript">
       var correct = 0.0;
       var asked = 0.0;
       var map = L.map('mapid').setView([60.192, 24.945], 11);
       var circle = {};
+      var distances = [];
+      var averageDistance = [];
+      var indices = [];
+      var currentIndex = 1;
+      var previousAvgDistance = 0;
+      var suburbLayer;
+      var districts;
 
       L.tileLayer('http://c.tiles.wmflabs.org/osm-no-labels/{z}/{x}/{y}.png',
       {
@@ -47,25 +63,62 @@
 
       var target = "";
 
+      function changeCity(cityName) {
+        if (cityName === undefined)
+        {
+          cityName = document.getElementById("city_selection").value;
+        }
+        switch(cityName) {
+          case "helsinki":
+            districts = helsinkiGeojson;
+            break;
+          case "espoo":
+            districts = espooGeojson;
+            break;
+          case "vantaa":
+            districts = vantaaGeojson;
+            break;
+        }
+        loadData(districts);
+      }
+
       function newTarget() {
         asked++;
         target = districts.features[Math.floor(Math.random() * districts.features.length)];
         document.getElementById("district").innerHTML= "Where is " + target.properties.name + "?";
       }
 
+      function rollingAverage(point)
+      {
+        if (averageDistance.length == 0)
+          averageDistance.push(point);
+        else
+          averageDistance.push(previousAvgDistance + (point - previousAvgDistance) * 0.1);
+        previousAvgDistance = averageDistance[averageDistance.length - 1];
+        indices.push(currentIndex);
+        currentIndex++;
+      }
+
       function whenClicked(e) {
         // e = event
         console.log(e);
         map.removeLayer(circle);
+        var distance;
 
         if (target.properties.name === e.target.feature.properties.name)
         {
           document.getElementById("answer").innerHTML="Correct!";
           correct++;
+          distance = 0;
         }
         else
         {
-          document.getElementById("answer").innerHTML="False, you clicked on " + e.target.feature.properties.name;
+          var targetCoords = L.latLng(target.geometry.coordinates[1], target.geometry.coordinates[0]);
+          var clickCoords = L.latLng(e.target.feature.geometry.coordinates[1], e.target.feature.geometry.coordinates[0]);
+          distance = targetCoords.distanceTo(clickCoords) / 1000;
+
+          document.getElementById("answer").innerHTML="False, you clicked on " + e.target.feature.properties.name
+          + ", " + Number(distance).toFixed(2) + " km error.";
           circle = L.circle([target.geometry.coordinates[1], target.geometry.coordinates[0]], {
             color: 'red',
             fillColor: '#f03',
@@ -75,6 +128,15 @@
         }
         document.getElementById("correct").innerHTML="You've got " + Number((correct / asked) * 100).toFixed(0) + "% correct."; 
         newTarget();
+
+        rollingAverage(distance);
+
+        var trace1 = {
+          x: indices,
+          y: averageDistance,
+          type: 'scatter'
+        };
+        Plotly.newPlot('plot', [trace1]);
       }
 
       function onEachFeature(feature, layer) {
@@ -84,14 +146,22 @@
         });
       }
 
-      L.geoJSON(districts, {
-          pointToLayer: function (feature, latlng) {
-              return L.circleMarker(latlng, geojsonMarkerOptions);
-          },
-          onEachFeature: onEachFeature
-      }).addTo(map);
+      function loadData(geojson)
+      {
+        if (suburbLayer !== undefined)
+        {
+          map.removeLayer(suburbLayer);
+        }
+        suburbLayer = L.geoJSON(geojson, {
+            pointToLayer: function (feature, latlng) {
+                return L.circleMarker(latlng, geojsonMarkerOptions);
+            },
+            onEachFeature: onEachFeature
+        }).addTo(map);
+      }
 
-      newTarget();  
+      changeCity("helsinki")
+      newTarget();
     </script>
   </body>
 </html>
